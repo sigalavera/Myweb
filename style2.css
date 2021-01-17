@@ -66,3 +66,24 @@ p{
 img{
     margin-left: 35%;
 }
+
+@media (max-width:360px){
+    #con{
+     display: grid;
+     
+     grid-template-areas:
+     'h1 h1 h1'
+     'navbar navbar navbar'
+     'info info info'
+     'image image image'
+     'image image image'
+     'image image image'
+     'footer footer footer';
+    }
+    img{
+        width: 300px;
+        margin-left: 0px;
+    }
+ 
+ 
+ }

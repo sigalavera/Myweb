@@ -120,16 +120,45 @@ footer{
     grid-area: footer;
     text-align: center;
 }
-@media (max-width:360px){
-   #con{
+@media (max-width:360px)and(min-width:900px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    } 
+    h1{
+        grid-area: h1;
+
+    }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+   
+    #con{
     display: grid;
     grid-template-areas:
     'h1 h1 h1'
+    'h1 h1 h1'
     'navbar navbar navbar'
-    'image image image'
+    'info info info'
     'image image image'
     'image image image'
     'footer footer footer';
    }
+   .navbar{
+    grid-area: navbar;
+    margin-top: 0px;
+    display: inline-block;
+    margin-left: 50px;
+
+    }
+    .info{
+        grid-area: info;
+    }
+    footer{
+        grid-area: footer;
+    }
+    .img{
+        width: 300px;
+        padding: 0px;
+        margin: 0px;
+    }
+
 
 }
