@@ -1,0 +1,135 @@
+#con{
+    display: grid;
+    grid-template-areas:
+    'h1 h1 h1'
+    'navbar info info'
+    'navbar image image'
+    'navbar image image'
+    'navbar image image'
+    'footer footer footer';
+}
+
+body{
+    background-image:url("back.jpg");
+    background-size:auto;
+
+}
+
+h1{
+    grid-area: h1;
+    position: sticky;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;  
+    background-color: rgba(157, 216, 231, 0.5);
+    top:0px;
+    padding: 20px;
+}
+
+.info{
+    text-align: center;
+    grid-area: info;
+    font-size: 20px;
+    height: 20vh;
+}
+
+.navbar{
+    grid-area: navbar;
+    margin-top: 190px;
+}
+
+ul{
+    list-style: none;
+    width: 200px;
+    background-color: rgba(157, 216, 231, 0.5);
+    font-family: 'Dancing Script', cursive;  
+}
+
+li a{
+    display: grid;
+    padding: 16px 16px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+li a:hover{
+    background-color: white;
+}
+
+p.txt{
+    margin:50px;
+    background-color: rgba(0, 0, 0, 0.16);
+    text-align: center;
+    margin: 0px;
+}
+
+img{
+    width: 350px;
+    height: 250px;
+}
+
+.img{
+    grid-area: image;
+    display: flex;
+    align-items: stretch;
+    flex-flow: row wrap;
+    padding: 70px;
+    margin-left: 100px;
+    gap: 50px;
+    align-content: center;
+}
+
+.image #bed{
+    filter: brightness(10px);
+    
+}
+
+.image #bed:hover{
+    filter:grayscale(60%);
+}
+  
+.image #children{
+    filter: brightness(10px);
+
+}
+
+.image #children:hover{
+    filter:grayscale(60%);
+
+}
+
+.image #play{
+    filter: brightness(10px);
+
+}
+
+.image #play:hover{
+    filter:grayscale(60%);
+    
+}
+
+.image #live{
+    filter: brightness(10px);
+}
+
+.image #live:hover{
+    filter:grayscale(60%);
+}
+
+footer{
+    grid-area: footer;
+    text-align: center;
+}
+@media (max-width:360px){
+   #con{
+    display: grid;
+    grid-template-areas:
+    'h1 h1 h1'
+    'navbar navbar navbar'
+    'image image image'
+    'image image image'
+    'image image image'
+    'footer footer footer';
+   }
+
+}

@@ -1,0 +1,68 @@
+body{
+    background-image: url("back.jpg");
+}
+#con{
+    text-align: center;
+}
+
+#bar{
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;  
+    list-style: none;
+    align-items: center;
+}
+
+#bar a{
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+}
+a{
+    color: black;
+}
+#bar a:hover{
+    background-color: rgb(160, 196, 238);
+    border-radius: 15px;
+
+}
+
+ul{
+display: inline;
+margin: 100px;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+li{
+font-family: 'Dancing Script', cursive;  
+background-color:rgba(157, 216, 231, 0.5);
+list-style: none;
+margin: 20px;
+align-items: center;
+}
+
+h1{
+    text-align: center;
+    background-color: rgba(157, 216, 231, 0.5);
+    font-family: 'Dancing Script', cursive;  
+    padding: 20px;
+
+}
+
+#sign{
+    height: 30vh;
+    text-align: center;
+}
+button{
+    align-items: center;
+}
+p{
+    text-align: center;
+    border-style: groove;
+    margin: 46px;
+    padding: 50px;
+}
+
+img{
+    margin-left: 35%;
+}
