@@ -79,40 +79,40 @@ img{
     align-content: center;
 }
 
-.image #bed{
+.img #bed{
     filter: brightness(10px);
     
 }
 
-.image #bed:hover{
+.img #bed:hover{
     filter:grayscale(60%);
 }
   
-.image #children{
+.img #children{
     filter: brightness(10px);
 
 }
 
-.image #children:hover{
+.img #children:hover{
     filter:grayscale(60%);
 
 }
 
-.image #play{
+.img #play{
     filter: brightness(10px);
 
 }
 
-.image #play:hover{
+.img #play:hover{
     filter:grayscale(60%);
     
 }
 
-.image #live{
+.img #live{
     filter: brightness(10px);
 }
 
-.image #live:hover{
+.img #live:hover{
     filter:grayscale(60%);
 }
 
