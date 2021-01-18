@@ -65,19 +65,8 @@ img{
 
 }
 @media (max-width:360px){
-    #con{
-     display: grid;
-     grid-template-areas:
-     'h1 h1 h1'
-     'navbar navbar navbar'
-     'info info info'
-     'image image image'
-     'image image image'
-     'image image image'
-     'footer footer footer';
-    }
     img{
-        width: 300px;
+       padding-left: 26px; ;
     }
     #you{
         width: 350px;
